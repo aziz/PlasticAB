@@ -645,7 +645,7 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>ES6/Commonjs  module keywords</string>
+			<string>ES6/Commonjs module keywords</string>
 			<key>scope</key>
 			<string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es, keyword.control.import-export.js</string>
 			<key>settings</key>
@@ -946,7 +946,7 @@ body {
 			<key>name</key>
 			<string>JSON level1</string>
 			<key>scope</key>
-			<string>source.json meta.structure string</string>
+			<string>source.json meta.structure string, source.json meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -957,7 +957,7 @@ body {
 			<key>name</key>
 			<string>JSON level2</string>
 			<key>scope</key>
-			<string>source.json meta meta.structure string</string>
+			<string>source.json meta meta.structure string, source.json meta meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -968,7 +968,7 @@ body {
 			<key>name</key>
 			<string>JSON level3</string>
 			<key>scope</key>
-			<string>source.json meta  meta meta.structure string</string>
+			<string>source.json meta meta meta.structure string, source.json meta meta meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -979,7 +979,7 @@ body {
 			<key>name</key>
 			<string>JSON level4</string>
 			<key>scope</key>
-			<string>source.json meta meta  meta meta.structure string</string>
+			<string>source.json meta meta meta meta.structure string, source.json meta meta meta meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -990,7 +990,7 @@ body {
 			<key>name</key>
 			<string>JSON level5</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta meta.structure string</string>
+			<string>source.json meta meta meta meta meta.structure string, source.json meta meta meta meta meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1001,7 +1001,7 @@ body {
 			<key>name</key>
 			<string>JSON level6</string>
 			<key>scope</key>
-			<string>source.json meta  meta meta meta meta meta.structure string</string>
+			<string>source.json meta meta meta meta meta meta.structure string, source.json meta meta meta meta meta meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1012,7 +1012,7 @@ body {
 			<key>name</key>
 			<string>JSON level7</string>
 			<key>scope</key>
-			<string>source.json meta  meta meta  meta meta meta meta.structure string</string>
+			<string>source.json meta meta meta meta meta meta meta.structure string, source.json meta meta meta meta meta meta meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1023,7 +1023,7 @@ body {
 			<key>name</key>
 			<string>JSON level8</string>
 			<key>scope</key>
-			<string>source.json meta meta  meta meta  meta meta meta meta.structure string</string>
+			<string>source.json meta meta meta meta meta meta meta meta.structure string, source.json meta meta meta meta meta meta meta meta.structure support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
