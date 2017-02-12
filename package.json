@@ -2,7 +2,7 @@
     "name": "theme-plastic-ab",
     "displayName": "PlasticAB",
     "description": "My fork of plasticCodeWrap",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "allenbar",
     "engines": {
         "vscode": "^1.5.0"
@@ -18,5 +18,14 @@
                 "path": "./themes/PlasticCodeWrap2.tmTheme"
             }
         ]
+    },
+    "icon": "icon.svg",
+    "homepage": "https://github.com/aziz/PlasticAB",
+    "bugs": {
+        "url": "https://github.com/aziz/PlasticAB/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aziz/PlasticAB"
     }
 }
