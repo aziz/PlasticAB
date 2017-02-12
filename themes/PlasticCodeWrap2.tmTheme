@@ -590,28 +590,6 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS object key</string>
-			<key>scope</key>
-			<string>constant.other.object.key.js string.unquoted.label.js, variable.other.readwrite.property.shorthand.es, constant.other.object.key.js string.unquoted.label.js variable.other.readwrite.property.object-literal.es, source.js meta.object-literal.js meta.object-literal.key.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CCB3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS object punctuations</string>
-			<key>scope</key>
-			<string>punctuation.definition.object.begin.es, punctuation.definition.object.end.es, punctuation.definition.accessor.begin.es, punctuation.definition.accessor.end.es, punctuation.separator.object-member.es, source.js meta.object-literal.js meta.brace.curly.js, meta.object-literal.js punctuation.definition.block.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CCB3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>JS constructor</string>
 			<key>scope</key>
 			<string>variable.function.constructor.js, entity.name.method.es variable.other.readwrite.property.es, storage.type.function.arrow.es</string>
@@ -647,7 +625,7 @@ body {
 			<key>name</key>
 			<string>ES6/Commonjs module keywords</string>
 			<key>scope</key>
-			<string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es, keyword.control.import-export.js</string>
+			<string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es, keyword.control.import-export.js, keyword.control.import.js, keyword.control.from.js, keyword.control.default.js, keyword.control.export.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -658,7 +636,7 @@ body {
 			<key>name</key>
 			<string>ES6 fn variables</string>
 			<key>scope</key>
-			<string>source.js variable.parameter.function.js, variable.parameter.es</string>
+			<string>source.js variable.parameter.function.js, variable.parameter.es, meta.parameters.js variable.parameter.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -669,7 +647,7 @@ body {
 			<key>name</key>
 			<string>ES6 fn punctuations</string>
 			<key>scope</key>
-			<string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es, punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es, punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es, meta.function.arrow.js punctuation.definition.parameters.begin.js, meta.function.arrow.js punctuation.definition.parameters.end.js</string>
+			<string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es, punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es, punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es, meta.function.arrow.js punctuation.definition.parameters.begin.js, meta.function.arrow.js punctuation.definition.parameters.end.js,meta.objectliteral.js meta.method.declaration.js punctuation.definition.block.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -685,6 +663,28 @@ body {
 			<dict>
 				<key>foreground</key>
 				<string>#FFDD33</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS object key</string>
+			<key>scope</key>
+			<string>constant.other.object.key.js string.unquoted.label.js, variable.other.readwrite.property.shorthand.es, constant.other.object.key.js string.unquoted.label.js variable.other.readwrite.property.object-literal.es, source.js meta.object-literal.js meta.object-literal.key.js, meta.object-literal.key.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCB3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS object punctuations</string>
+			<key>scope</key>
+			<string>punctuation.definition.object.begin.es, punctuation.definition.object.end.es, punctuation.definition.accessor.begin.es, punctuation.definition.accessor.end.es, punctuation.separator.object-member.es, source.js meta.object-literal.js meta.brace.curly.js, meta.object-literal.js punctuation.definition.block.js, meta.block.js meta.objectliteral.js punctuation.definition.block.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCB3FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -812,7 +812,7 @@ body {
 			<key>name</key>
 			<string>JSX attribures names</string>
 			<key>scope</key>
-			<string>meta.jsx.js entity.other.attribute-name.jsx, variable.other.attribute.jsx</string>
+			<string>meta.jsx.js entity.other.attribute-name.jsx, variable.other.attribute.jsx, source.js meta.tag.js entity.other.attribute-name.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -835,6 +835,17 @@ body {
 			<string>JSX Text</string>
 			<key>scope</key>
 			<string>string.text.jsx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS variable</string>
+			<key>scope</key>
+			<string>variable.other.object.property.js, variable.other.property.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

@@ -5,3 +5,6 @@
 
 ## 0.1.1
 - Fixed JSON multi level coloring
+
+## 0.1.2
+- Improvements for Javascript (babel)
