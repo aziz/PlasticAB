@@ -1617,6 +1617,31 @@ body {
 				<string>#9DF39F00</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>JsDoc</string>
+			<key>scope</key>
+			<string>source.js comment.block.documentation.js storage.type.class.jsdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DD2FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JsDoc Entities</string>
+			<key>scope</key>
+			<string>source.js comment.block.documentation.js entity.name.type.instance.jsdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DD2FF</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

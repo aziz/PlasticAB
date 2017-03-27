@@ -8,3 +8,6 @@
 
 ## 0.1.2
 - Improvements for Javascript (babel)
+
+## 0.1.4
+- Improvements for Javascript Jsdocs
