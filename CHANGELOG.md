@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.1.0
+- Better Support for ES6 and JSX
+
 ## 1.0.0
 - Switched to for vs-color-theme-format
 - Added theme colors for UI
