@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.0
+- Better Support for Sass
+
 ## 1.1.0
 - Better Support for ES6 and JSX
 

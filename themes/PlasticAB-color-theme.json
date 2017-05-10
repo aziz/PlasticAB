@@ -205,21 +205,21 @@
 		},
 		{
 			"name": "CSS/Less/Sass html-tag",
-			"scope": "meta.selector.css entity.name.tag, source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss, source.scss entity.name.tag.css.sass.symbol",
+			"scope": "meta.selector.css entity.name.tag, source.less entity.name.tag.css, keyword.control.html.elements, entity.name.tag.scss, entity.name.tag.css.sass.symbol",
 			"settings": {
 				"foreground": "#9EFFFF"
 			}
 		},
 		{
 			"name": "CSS/Less/Sass ID",
-			"scope": "meta.selector.css entity.other.attribute-name.id, source.less entity.other.attribute-name.id.css, source.scss entity.other.attribute-name.id.css",
+			"scope": "meta.selector.css entity.other.attribute-name.id, source.less entity.other.attribute-name.id.css, entity.other.attribute-name.id.css",
 			"settings": {
 				"foreground": "#FFC266"
 			}
 		},
 		{
 			"name": "CSS/Less/Sass class",
-			"scope": "meta.selector.css entity.other.attribute-name.class, source.less entity.other.attribute-name.class.css, source.scss entity.other.attribute-name.class.css",
+			"scope": "meta.selector.css entity.other.attribute-name.class, source.less entity.other.attribute-name.class.css, entity.other.attribute-name.class.css, entity.other.attribute-name.class.css",
 			"settings": {
 				"foreground": "#F6F080"
 			}
@@ -246,15 +246,15 @@
 			}
 		},
 		{
-			"name": "CSS/Less/Sass Units",
-			"scope": "keyword.other.unit.css, source.less keyword.unit.css, source.scss keyword.other.unit.scss",
+			"name": "CSS/Less/Sass Units and keys",
+			"scope": "keyword.other.unit.css, source.less keyword.unit.css, keyword.other.unit.scss, support.type.map.key.scss",
 			"settings": {
 				"foreground": "#FF7A9A"
 			}
 		},
 		{
 			"name": "CSS/Sass !important",
-			"scope": "keyword.other.important.css, source.scss keyword.other.important.scss",
+			"scope": "keyword.other.important.css, keyword.other.important.scss",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#FF3A83"
@@ -262,7 +262,7 @@
 		},
 		{
 			"name": "Less/Sass variables and CSS custom property",
-			"scope": "support.type.custom-property.css, source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss, source.scss meta.property-list.css.sass variable.other.value, source.scss sass-script-maps variable.other",
+			"scope": "support.type.custom-property.css, source.less variable.other.less, source.less variable.declaration.less, variable.scss, meta.property-list.css.sass variable.other.value, sass-script-maps variable.other, variable.scss",
 			"settings": {
 				"foreground": "#CCB3FF"
 			}
@@ -289,50 +289,64 @@
 			}
 		},
 		{
+			"name": "Sass Functions",
+			"scope": "support.function.misc.scss",
+			"settings": {
+				"foreground": "#FFDD33"	
+			}
+		},
+		{
+			"name": "Sass include names",
+			"scope": "meta.at-rule.include.scss entity.name.function.scss",
+			"settings": {
+				"foreground": "#FFC266"
+			}
+		},
+		{
 			"name": "Sass attribute-name pseudo-class",
-			"scope": "source.scss entity.other.attribute-name.pseudo-class.css.sass",
+			"scope": "entity.other.attribute-name.pseudo-class.css.sass",
 			"settings": {
 				"foreground": "#FFDD33"
 			}
 		},
 		{
 			"name": "Sass Color",
-			"scope": "source.scss constant.other.color.rgb-value.css.sass",
+			"scope": "constant.other.color.rgb-value.css.sass, constant.numeric.color.hex-value.scss",
 			"settings": {
 				"foreground": "#FFC266"
 			}
 		},
 		{
 			"name": "Sass comma punctuations",
-			"scope": "source.scss comment.punctuation.comma.sass",
+			"scope": "comment.punctuation.comma.sass",
 			"settings": {
 				"foreground": "#F8F8F8"
 			}
 		},
 		{
 			"name": "Sass @mixins",
-			"scope": "source.scss support.function.name.sass.no-completions keyword.control.at-rule.css.sass",
+			"scope": "support.function.name.sass.no-completions keyword.control.at-rule.css.sass, keyword.control.at-rule.function.scss, keyword.control.at-rule.mixin.scss",
 			"settings": {
 				"foreground": "#4DD2FF"
 			}
 		},
 		{
 			"name": "Sass @included",
-			"scope": "source.scss support.function.name.sass.library keyword.control.at-rule.css.sass",
+			"scope": "support.function.name.sass.library keyword.control.at-rule.css.sass, keyword.control.at-rule.include.scss",
 			"settings": {
 				"foreground": "#AE81FF"
 			}
 		},
 		{
 			"name": "Sass keywords",
-			"scope": "source.scss entity.name.tag.reference.scss",
+			"scope": "entity.name.tag.reference.scss",
 			"settings": {
 				"foreground": "#FFA826"
 			}
 		},
 		{
 			"name": "Sass string interpolations",
-			"scope": "source.scss support.function.interpolation.sass",
+			"scope": "support.function.interpolation.sass",
 			"settings": {
 				"foreground": "#9DF39F",
 				"background": "#9DF39F22"
