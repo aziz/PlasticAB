@@ -19,7 +19,7 @@
             }
         ]
     },
-    "icon": "icon.svg",
+    "icon": "icon.png",
     "homepage": "https://github.com/aziz/PlasticAB",
     "bugs": {
         "url": "https://github.com/aziz/PlasticAB/issues"
