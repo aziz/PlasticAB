@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.3.0
+- Better Typescript support
+- Major clean up
+
 ## 1.2.0
 - Better Support for Sass
 
