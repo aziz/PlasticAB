@@ -416,7 +416,7 @@
 		},
 		{
 			"name": "JS object key",
-			"scope": "constant.other.object.key string.unquoted.label, source meta.object-literal meta.object-literal.key, meta.object-literal.key",
+			"scope": "constant.other.object.key string.unquoted.label, source meta.object-literal meta.object-literal.key, meta.object-literal.key, meta.object.member.object-literal.key",
 			"settings": {
 				"foreground": "#CCB3FF"
 			}
