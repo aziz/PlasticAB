@@ -191,14 +191,14 @@
 		},
 		{
 			"name": "HTML script tags",
-			"scope": "entity.name.tag.script.html",
+			"scope": "entity.name.tag.script.html, meta.tag.metadata.script.html entity.name.tag.html",
 			"settings": {
 				"foreground": "#FFDD33"
 			}
 		},
 		{
 			"name": "HTML style tags and attributes",
-			"scope": "entity.name.tag.style.html, entity.other.attribute-name.style.html",
+			"scope": "entity.name.tag.style.html, entity.other.attribute-name.style.html, meta.tag.metadata.style.html entity.name.tag.html",
 			"settings": {
 				"foreground": "#CCB3FF"
 			}
@@ -451,7 +451,7 @@
 		},
 		{
 			"name": "ES6 Destructuring puctuations",
-			"scope": "meta.import punctuation.definition.block, meta.import punctuation.separator.comma, meta.parameters meta.parameter.object-binding-pattern punctuation.definition.binding-pattern.object",
+			"scope": "punctuation.definition.binding-pattern.object.ts, meta.import punctuation.definition.block, meta.import punctuation.separator.comma, meta.parameters meta.parameter.object-binding-pattern punctuation.definition.binding-pattern.object",
 			"settings": {
 				"foreground": "#FF7A9A"
 			}
@@ -500,9 +500,30 @@
 		},
 		{
 			"name": "JS variable",
-			"scope": "variable.other.object.property, variable.other.property",
+			"scope": "variable.other.object.property, variable.other.property, meta.class variable.object.property, support.variable.property.dom",
 			"settings": {
 				"foreground": "#F8F8F8"
+			}
+		},
+		{
+			"name": "JS Async",
+			"scope": "storage.modifier.async",
+			"settings": {
+				"foreground": "#4DD2FF"
+			}
+		},
+		{
+			"name": "TypeScript Type Annotations",
+			"scope": "meta.type.annotation.ts entity.name.type, meta.type.annotation.ts support.type.primitive",
+			"settings": {
+				"foreground": "#4DD2FF"
+			}
+		},
+		{
+			"name": "TypeScript Type Annotations",
+			"scope": "meta.interface.ts variable.object.property.ts",
+			"settings": {
+				"foreground": "#CCB3FF"
 			}
 		},
 		{
