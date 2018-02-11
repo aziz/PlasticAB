@@ -81,7 +81,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#4EE161"
+				"foreground": "#31C871"
 			}
 		},
 		{
@@ -471,6 +471,22 @@
 			}
 		},
 		{
+			"name": "ES6 Decorators",
+			"scope": "meta.decorator meta.function-call entity.name.function",
+			"settings": {
+				"foreground": "#9DF39F"
+			}
+		},
+		{
+			"name": "ES6 Decorators Punctuation",
+			"scope": "meta.decorator punctuation.decorator",
+			"settings": {
+				"foreground": "#9DF39FAA"
+			}
+		},
+
+
+		{
 			"name": "JSX punctuation",
 			"scope": "punctuation.section.embedded.jsx",
 			"settings": {
@@ -496,6 +512,13 @@
 			"scope": "string.text.jsx",
 			"settings": {
 				"foreground": "#F8F8F8"
+			}
+		},
+		{
+			"name": "JSX Components",
+			"scope": "entity.name.tag support.class.component",
+			"settings": {
+				"foreground": "#4DD2FF"
 			}
 		},
 		{
@@ -558,7 +581,7 @@
 			"name": "Coffee embeded",
 			"scope": "punctuation.section.embedded.coffee",
 			"settings": {
-				"foreground": "#4EE161"
+				"foreground": "#31C871"
 			}
 		},
 		{

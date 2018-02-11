@@ -1,31 +1,29 @@
 {
-    "name": "theme-plastic-ab",
-    "displayName": "PlasticAB",
-    "description": "My fork of plasticCodeWrap",
-    "version": "1.4.1",
-    "publisher": "allenbar",
-    "engines": {
-        "vscode": "^1.12.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "PlasticAB",
-                "uiTheme": "vs-dark",
-                "path": "./themes/PlasticAB-color-theme.json"
-            }
-        ]
-    },
-    "icon": "icon.png",
-    "homepage": "https://github.com/aziz/PlasticAB",
-    "bugs": {
-        "url": "https://github.com/aziz/PlasticAB/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aziz/PlasticAB"
-    }
+  "name": "theme-plastic-ab",
+  "displayName": "PlasticAB",
+  "description": "My fork of plasticCodeWrap",
+  "version": "1.5.0",
+  "publisher": "allenbar",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PlasticAB",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PlasticAB-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "homepage": "https://github.com/aziz/PlasticAB",
+  "bugs": {
+    "url": "https://github.com/aziz/PlasticAB/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aziz/PlasticAB"
+  }
 }
