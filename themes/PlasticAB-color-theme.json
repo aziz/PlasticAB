@@ -34,7 +34,9 @@
 		"tab.border": "#ffffff22",
 		"tab.inactiveBackground": "#00101466",
 		"titleBar.activeBackground": "#00161b",
-		"widget.shadow": "#00000000"
+		"widget.shadow": "#00000000",
+		"peekViewTitle.background": "#007acc",
+		"peekViewResult.background": "#00161b"
 	},
 	"tokenColors": [
 		{

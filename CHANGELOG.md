@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.6.0
+- Better Peek UI
+
 ## 1.3.0
 - Better Typescript support
 - Major clean up
