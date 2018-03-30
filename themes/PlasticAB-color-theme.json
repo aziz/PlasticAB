@@ -2,6 +2,7 @@
 	"name": "PlasticAB",
 	"type": "dark",
 	"colors": {
+		// "minty-green": "#12FFA9",
 		"activityBar.background": "#001d24",
 		"dropdown.background": "#ffffff22",
 		"editor.background": "#00161b",
@@ -57,7 +58,7 @@
 			"name": "Entity",
 			"scope": "entity",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -190,7 +191,7 @@
 			"name": "HTML script tags",
 			"scope": "entity.name.tag.script.html, meta.tag.metadata.script.html entity.name.tag.html",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -275,7 +276,7 @@
 			"name": "CSS custom property punctuations",
 			"scope": "entity.other.pseudo-class.css punctuation.definition.entity.css",
 			"settings": {
-				"foreground": "#FFDD3388"
+				"foreground": "#FFC60088"
 			}
 		},
 		{
@@ -289,7 +290,7 @@
 			"name": "Sass Functions",
 			"scope": "support.function.misc.scss",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -303,7 +304,7 @@
 			"name": "Sass attribute-name pseudo-class",
 			"scope": "entity.other.attribute-name.pseudo-class.css.sass",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -380,7 +381,7 @@
 			"name": "JS constructor",
 			"scope": "variable.function.constructor",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -408,7 +409,7 @@
 			"name": "ES6 Arrow fn",
 			"scope": "meta.function.arrow storage.type.function.arrow, meta.arrow storage.type.function.arrow",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -436,7 +437,7 @@
 			"name": "ES6 Class Properties",
 			"scope": "meta.class.property variable.other.property",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -655,7 +656,7 @@
 			"name": "JSON level7",
 			"scope": "source.json meta meta meta meta meta meta meta.structure string, source.json meta meta meta meta meta meta meta.structure support",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
@@ -767,7 +768,7 @@
 			"name": "RSpec Block Keywords, describe, context and it",
 			"scope": "keyword.other.rspec.behaviour, keyword.other.rspec.example",
 			"settings": {
-				"foreground": "#FFDD33"
+				"foreground": "#FFC600"
 			}
 		},
 		{
