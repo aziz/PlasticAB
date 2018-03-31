@@ -965,6 +965,7 @@
 			}
 		},
 		{
+			"name": "Markdown Headings",
 			"scope": "markup.heading.markdown entity.name.section.markdown",
 			"settings": {
 				"fontStyle": "bold",
@@ -972,40 +973,103 @@
 			}
 		},
 		{
+			"name": "Markdown Headings Punctuations",
 			"scope": "markup.heading.markdown punctuation.definition.heading.markdown",
 			"settings": {
 				"foreground": "#F6F08066"
 			}
 		},
 		{
+			"name": "Markdown Link Title",
 			"scope": "string.other.link.title.markdown",
 			"settings": {
 				"foreground": "#CCB3FF"
 			}
 		},
 		{
+			"name": "Markdown URLs",
 			"scope": "markup.underline.link.markdown",
 			"settings": {
 				"foreground": "#4DD2FF"
 			}
 		},
 		{
+			"name": "Markdown List Punctuations",
 			"scope": "beginning.punctuation.definition.list.markdown",
 			"settings": {
 				"foreground": "#FF7A9A"
 			}
 		},
 		{
+			"name": "Markdown Fenced Code Block",
 			"scope": "markup.fenced_code.block.markdown",
 			"settings": {
 				"foreground": "#9DF39F"
 			}
 		},
 		{
+			"name": "Markdown Fenced Code Block Punctuations",
 			"scope": "markup.fenced_code.block.markdown punctuation.definition.markdown",
 			"settings": {
 				"foreground": "#31C871"
 			}
+		},
+		{
+			"name": "Java Imports",
+			"scope": "keyword.other.import.java",
+			"settings": {
+				"foreground": "#AE81FF"
+			}
+		},
+		{
+			"name": "Java Types",
+			"scope": "storage.type.java, storage.type.generic.java, storage.type.primitive.java",
+			"settings": {
+				"foreground": "#4DD2FF"
+			}
+		},
+		{
+			"name": "Java Normal variables",
+			"scope": "variable.other.definition.java, meta.method-call.java entity.name.function.java, meta.import.java storage.modifier.import.java",
+			"settings": {
+				"foreground": "#F8F8F8"
+			}
+		},
+		{
+			"name": "Java Dot Separators",
+			"scope": "punctuation.separator.java, punctuation.separator.period.java",
+			"settings": {
+				"foreground": "#FFA826"
+			}
+		},
+		{
+			"name": "Java Annotations",
+			"scope": "storage.type.annotation.java",
+			"settings": {
+				"foreground": "#CCB3FF"
+			}
+		},
+		{
+			"name": "Java Annotations Punctuations",
+			"scope": "storage.type.annotation.java punctuation.definition.annotation.java",
+			"settings": {
+				"foreground": "#CCB3FF66"
+			}
+		},
+		{
+			"name": "Java method calls Punctuations",
+			"scope": "meta.method-call.java punctuation.definition.parameters.begin.bracket.round.java, meta.method-call.java punctuation.definition.parameters.end.bracket.round.java",
+			"settings": {
+				"foreground": "#FFC266"
+			}
+		},
+		{
+			"name": "Java method block Punctuations",
+			"scope": "punctuation.section.method.begin.bracket.curly.java, punctuation.section.method.end.bracket.curly.java",
+			"settings": {
+				"foreground": "#F6F080"
+			}
 		}
+		// meta.method.identifier.java punctuation.definition.parameters.begin.bracket.round.java
 	]
 }
