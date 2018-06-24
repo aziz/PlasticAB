@@ -535,7 +535,7 @@
 		},
 		{
 			"name": "TypeScript Type Annotations",
-			"scope": "meta.type.annotation.ts entity.name.type, meta.type.annotation.ts support.type.primitive, meta.type.annotation.ts support.type.builtin, meta.return.type.arrow.ts entity.name.type, meta.return.type.arrow.ts support.type.primitive, meta.return.type support.type.primitive",
+			"scope": "meta.type.annotation.ts entity.name.type, meta.type.annotation.ts support.type.primitive, meta.type.annotation.ts support.type.builtin, meta.return.type.arrow.ts entity.name.type, meta.return.type.arrow.ts support.type.primitive, meta.return.type support.type.primitive, meta.return.type entity.name.type",
 			"settings": {
 				"foreground": "#4DD2FF"
 			}
