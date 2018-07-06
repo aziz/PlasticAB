@@ -1192,6 +1192,20 @@
       }
     },
     {
+      "name": "Markdown Inline Code",
+      "scope": ["markup.inline.raw"],
+      "settings": {
+        "foreground": "#9DF39F"
+      }
+    },
+    {
+      "name": "Markdown Inline Code Punctuations",
+      "scope": ["punctuation.definition.raw"],
+      "settings": {
+        "foreground": "#31c8703d"
+      }
+    },
+    {
       "name": "Markdown Fenced Code Block",
       "scope": ["markup.fenced_code.block.markdown"],
       "settings": {
