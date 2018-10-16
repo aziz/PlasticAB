@@ -38,7 +38,8 @@
     "titleBar.activeBackground": "#000a0c",
     "widget.shadow": "#00000000",
     "peekViewTitle.background": "#007acc",
-    "peekViewResult.background": "#00161b"
+    "peekViewResult.background": "#00161b",
+    "editorRuler.foreground": "#ffffff1f"
   },
   "tokenColors": [
     {
