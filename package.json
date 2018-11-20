@@ -2,7 +2,7 @@
   "name": "theme-plastic-ab",
   "displayName": "PlasticAB",
   "description": "My fork of plasticCodeWrap",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "publisher": "allenbar",
   "engines": {
     "vscode": "^1.12.0"
@@ -15,7 +15,7 @@
       {
         "label": "PlasticAB",
         "uiTheme": "vs-dark",
-        "path": "./themes/PlasticAB-color-theme.json"
+        "path": "./themes/PlasticAB.color-theme.json"
       }
     ]
   },
