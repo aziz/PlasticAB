@@ -34,7 +34,7 @@
     "statusBar.background": "#001d24",
     "statusBar.noFolderBackground": "#001d24",
     "tab.border": "#00161b",
-    "tab.inactiveBackground": "#000000",
+    "tab.inactiveBackground": "#00101466",
     "titleBar.activeBackground": "#001d24",
     "widget.shadow": "#00000000",
     "peekViewTitle.background": "#007acc",
