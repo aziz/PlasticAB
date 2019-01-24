@@ -149,7 +149,7 @@
       "scope": [
         "declaration.tag",
         "declaration.tag entity",
-        "meta.tag",
+        "meta.tag - meta.tag.js",
         "entity.name.tag",
         "entity.name.tag.jsx"
       ],
@@ -193,7 +193,8 @@
       "scope": [
         "punctuation.definition.tag.end",
         "punctuation.definition.tag.begin",
-        "punctuation.definition.tag"
+        "punctuation.definition.tag",
+        "punctuation.separator.key-value.html"
       ],
       "settings": {
         "foreground": "#65A4A487"
@@ -602,7 +603,7 @@
     },
     {
       "name": "JSX punctuation",
-      "scope": ["punctuation.section.embedded.jsx"],
+      "scope": ["punctuation.section.embedded"],
       "settings": {
         "foreground": "#9EFFFF"
       }
