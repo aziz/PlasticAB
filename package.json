@@ -2,7 +2,7 @@
   "name": "theme-plastic-ab",
   "displayName": "PlasticAB",
   "description": "My fork of plasticCodeWrap",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "publisher": "allenbar",
   "engines": {
     "vscode": "^1.12.0"
