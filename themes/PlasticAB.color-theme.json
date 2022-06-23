@@ -4,7 +4,6 @@
   "colors": {
     // "minty-green": "#12FFA9",
     "activityBar.background": "#001d24",
-    "dropdown.background": "#ffffff22",
     "editor.background": "#00161b",
     "editor.findMatchBackground": "#ffe792cc",
     "editor.findMatchHighlightBackground": "#ffe79244",
@@ -23,6 +22,7 @@
     "editorWhitespace.foreground": "#f3ffb51a",
     "editorWidget.background": "#001014",
     "input.background": "#212f33",
+    "dropdown.background": "#212f33",
     "list.hoverBackground": "#ffffff22",
     "list.inactiveSelectionBackground": "#ffffff22",
     "panel.background": "#001317",
